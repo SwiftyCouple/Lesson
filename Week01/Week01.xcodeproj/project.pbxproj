@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C400B70D26F230BC003FED8E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400B70C26F230BC003FED8E /* DetailsViewController.swift */; };
+		C400B71326F2368E003FED8E /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400B71126F2368E003FED8E /* TopicTableViewCell.swift */; };
+		C400B71426F2368E003FED8E /* TopicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C400B71226F2368E003FED8E /* TopicTableViewCell.xib */; };
 		C4D932DA26EBD67A00642F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D932D926EBD67A00642F28 /* AppDelegate.swift */; };
 		C4D932DC26EBD67A00642F28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D932DB26EBD67A00642F28 /* SceneDelegate.swift */; };
-		C4D932DE26EBD67A00642F28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D932DD26EBD67A00642F28 /* ViewController.swift */; };
 		C4D932E126EBD67A00642F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D932DF26EBD67A00642F28 /* Main.storyboard */; };
 		C4D932E326EBD67D00642F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D932E226EBD67D00642F28 /* Assets.xcassets */; };
 		C4D932E626EBD67D00642F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D932E426EBD67D00642F28 /* LaunchScreen.storyboard */; };
+		C4D932EE26EBD73C00642F28 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D932ED26EBD73C00642F28 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C400B70C26F230BC003FED8E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C400B71126F2368E003FED8E /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		C400B71226F2368E003FED8E /* TopicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicTableViewCell.xib; sourceTree = "<group>"; };
 		C4D932D626EBD67A00642F28 /* Week01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D932D926EBD67A00642F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4D932DB26EBD67A00642F28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4D932DD26EBD67A00642F28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4D932E026EBD67A00642F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4D932E226EBD67D00642F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D932E526EBD67D00642F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4D932E726EBD67D00642F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D932ED26EBD73C00642F28 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C400B70E26F234D6003FED8E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4D932ED26EBD73C00642F28 /* HomeViewController.swift */,
+				C400B70C26F230BC003FED8E /* DetailsViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C400B70F26F234E6003FED8E /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C4D932E226EBD67D00642F28 /* Assets.xcassets */,
+				C4D932DF26EBD67A00642F28 /* Main.storyboard */,
+				C4D932E426EBD67D00642F28 /* LaunchScreen.storyboard */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		C400B71026F23660003FED8E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C400B71126F2368E003FED8E /* TopicTableViewCell.swift */,
+				C400B71226F2368E003FED8E /* TopicTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		C4D932CD26EBD67A00642F28 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +90,11 @@
 		C4D932D826EBD67A00642F28 /* Week01 */ = {
 			isa = PBXGroup;
 			children = (
+				C400B71026F23660003FED8E /* cell */,
+				C400B70F26F234E6003FED8E /* resource */,
+				C400B70E26F234D6003FED8E /* controller */,
 				C4D932D926EBD67A00642F28 /* AppDelegate.swift */,
 				C4D932DB26EBD67A00642F28 /* SceneDelegate.swift */,
-				C4D932DD26EBD67A00642F28 /* ViewController.swift */,
-				C4D932DF26EBD67A00642F28 /* Main.storyboard */,
-				C4D932E226EBD67D00642F28 /* Assets.xcassets */,
-				C4D932E426EBD67D00642F28 /* LaunchScreen.storyboard */,
 				C4D932E726EBD67D00642F28 /* Info.plist */,
 			);
 			path = Week01;
@@ -125,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D932E626EBD67D00642F28 /* LaunchScreen.storyboard in Resources */,
+				C400B71426F2368E003FED8E /* TopicTableViewCell.xib in Resources */,
 				C4D932E326EBD67D00642F28 /* Assets.xcassets in Resources */,
 				C4D932E126EBD67A00642F28 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D932DE26EBD67A00642F28 /* ViewController.swift in Sources */,
+				C400B71326F2368E003FED8E /* TopicTableViewCell.swift in Sources */,
 				C4D932DA26EBD67A00642F28 /* AppDelegate.swift in Sources */,
 				C4D932DC26EBD67A00642F28 /* SceneDelegate.swift in Sources */,
+				C4D932EE26EBD73C00642F28 /* HomeViewController.swift in Sources */,
+				C400B70D26F230BC003FED8E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
