@@ -22,6 +22,10 @@ class HomeViewController: UIViewController {
         syllabusTableView.dataSource = self
         syllabusTableView.delegate = self
     }
+    
+    @IBAction func infoAction(_ sender: Any) {
+        performSegue(withIdentifier: "infoScreen", sender: nil)
+    }
 }
 
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
@@ -44,5 +48,9 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         cell.configure(title: "IBOutlet", timeInSecond: 34558, progress: 2.0)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "detailViewController", sender: nil)
     }
 }
