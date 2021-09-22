@@ -30,7 +30,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 85
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -40,6 +40,8 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         ) as? TopicTableViewCell else {
             fatalError()
         }
+        
+        cell.configure(title: "IBOutlet", timeInSecond: 34558, progress: 2.0)
         
         return cell
     }

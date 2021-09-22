@@ -3,33 +3,58 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="61" id="KGk-i7-Jjw" customClass="TopicTableViewCell" customModule="Week01" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="378" height="61"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="TopicTableViewCell" customModule="Week01" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="80"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="378" height="61"/>
+                <rect key="frame" x="0.0" y="0.0" width="378" height="80"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61d-xV-hGx">
-                        <rect key="frame" x="10" y="5" width="358" height="51"/>
+                        <rect key="frame" x="10" y="5" width="358" height="70"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2g-HC-Rsb">
-                                <rect key="frame" x="163" y="15" width="32" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <rect key="frame" x="20" y="10" width="35.5" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vUC-xZ-iEq">
+                                <rect key="frame" x="20" y="43.5" width="20" height="19"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="cbe-iD-Gzg"/>
+                                    <constraint firstAttribute="height" constant="20" id="yqY-hQ-66g"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLl-fL-xva">
+                                <rect key="frame" x="42" y="44.5" width="35.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pF2-K1-72e">
+                                <rect key="frame" x="258" y="51" width="80" height="4"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="JiH-vc-Afn"/>
+                                </constraints>
+                            </progressView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="D2g-HC-Rsb" firstAttribute="centerY" secondItem="61d-xV-hGx" secondAttribute="centerY" id="m9e-jQ-xsh"/>
-                            <constraint firstItem="D2g-HC-Rsb" firstAttribute="centerX" secondItem="61d-xV-hGx" secondAttribute="centerX" id="sZy-TZ-JWK"/>
+                            <constraint firstAttribute="trailing" secondItem="pF2-K1-72e" secondAttribute="trailing" constant="20" id="6fG-Eh-tCo"/>
+                            <constraint firstItem="vUC-xZ-iEq" firstAttribute="leading" secondItem="D2g-HC-Rsb" secondAttribute="leading" id="IhB-Yp-wr0"/>
+                            <constraint firstItem="pF2-K1-72e" firstAttribute="centerY" secondItem="vUC-xZ-iEq" secondAttribute="centerY" id="LFZ-S4-zcT"/>
+                            <constraint firstItem="D2g-HC-Rsb" firstAttribute="leading" secondItem="61d-xV-hGx" secondAttribute="leading" constant="20" id="QIT-8f-S4i"/>
+                            <constraint firstItem="D2g-HC-Rsb" firstAttribute="top" secondItem="61d-xV-hGx" secondAttribute="top" constant="10" id="YwQ-tp-6My"/>
+                            <constraint firstItem="xLl-fL-xva" firstAttribute="centerY" secondItem="vUC-xZ-iEq" secondAttribute="centerY" id="dTm-Ce-KwU"/>
+                            <constraint firstItem="vUC-xZ-iEq" firstAttribute="top" secondItem="D2g-HC-Rsb" secondAttribute="bottom" constant="10" id="ouW-V4-NNX"/>
+                            <constraint firstItem="xLl-fL-xva" firstAttribute="leading" secondItem="vUC-xZ-iEq" secondAttribute="trailing" constant="2" id="phg-gJ-hhU"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -40,15 +65,16 @@
                     <constraint firstAttribute="bottom" secondItem="61d-xV-hGx" secondAttribute="bottom" constant="5" id="WDt-WB-Wuv"/>
                 </constraints>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="13.043478260869566" y="133.59375"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="progressView" destination="pF2-K1-72e" id="erm-PF-qJ3"/>
+                <outlet property="timeLabel" destination="xLl-fL-xva" id="d2G-hB-Hfh"/>
+                <outlet property="titleLabel" destination="D2g-HC-Rsb" id="oFu-4F-BiR"/>
+            </connections>
+            <point key="canvasLocation" x="13.043478260869566" y="139.95535714285714"/>
         </tableViewCell>
     </objects>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiarySystemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="clock" catalog="system" width="128" height="121"/>
     </resources>
 </document>
