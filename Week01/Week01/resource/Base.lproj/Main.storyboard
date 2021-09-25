@@ -21,14 +21,19 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="U96-Yj-mqA">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="unX-mi-RhP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="U96-Yj-mqA" firstAttribute="centerY" secondItem="h65-u9-yIv" secondAttribute="centerY" id="7RL-BA-ycK"/>
                             <constraint firstItem="gsn-uA-EkJ" firstAttribute="leading" secondItem="unX-mi-RhP" secondAttribute="leading" id="W39-Uf-sXB"/>
                             <constraint firstItem="gsn-uA-EkJ" firstAttribute="top" secondItem="unX-mi-RhP" secondAttribute="top" id="X1H-6c-A5S"/>
                             <constraint firstItem="unX-mi-RhP" firstAttribute="trailing" secondItem="gsn-uA-EkJ" secondAttribute="trailing" id="d11-od-I20"/>
                             <constraint firstItem="unX-mi-RhP" firstAttribute="bottom" secondItem="gsn-uA-EkJ" secondAttribute="bottom" id="iGK-iP-C2C"/>
+                            <constraint firstItem="U96-Yj-mqA" firstAttribute="centerX" secondItem="h65-u9-yIv" secondAttribute="centerX" id="z9c-nf-3AI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="iOS Curriculum" id="ZK2-UM-yW6">
@@ -44,6 +49,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="activityIndicator" destination="U96-Yj-mqA" id="5Dj-EJ-Cet"/>
                         <outlet property="syllabusTableView" destination="gsn-uA-EkJ" id="yiH-jC-UTR"/>
                         <segue destination="rEr-Ob-okF" kind="show" identifier="detailViewController" id="Fpe-ah-k5Y"/>
                         <segue destination="Wjb-JI-0fc" kind="presentation" identifier="infoScreen" id="xx4-1D-ThG"/>

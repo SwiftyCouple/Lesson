@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     @IBOutlet private weak var syllabusTableView: UITableView!
+    @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
     
     private var topicList: [Topic] = []
     private var selectedTopic: Topic!
@@ -64,6 +65,7 @@ class HomeViewController: UIViewController {
                 self.topicList = topicList
                 DispatchQueue.main.async {
                     self.syllabusTableView.reloadData()
+                    self.activityIndicator.isHidden = true
                 }
             } catch {
                 print(error)
