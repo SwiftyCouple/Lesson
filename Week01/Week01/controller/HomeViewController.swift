@@ -47,23 +47,30 @@ class HomeViewController: UIViewController {
     
     //MARK: - Netowk Call
     private func downloadSyllabusTopic() {
-        DispatchQueue.main.asyncAfter(deadline: .now()){
-            for i in 0...20 {
-                let topic = Topic(
-                    title: "Title \(i)",
-                    timeInSec: 7343,
-                    summary: "Summery",
-                    keyPoints: ["Points1","Points2","Points3","Points4","Points5"],
-                    imageName: "image\(i)",
-                    difficulty: .easy,
-                    progress: 0.5
-                )
-                
-                self.topicList.append(topic)
+        let url = URL(string: "https://my-json-server.typicode.com/swiftycouple/Lesson/topics")
+        
+        let urlSession = URLSession(configuration: .default)
+        
+        let task = urlSession.dataTask(with: url!) { data, _, error in
+            guard let data = data, error == nil else {
+                print(error!)
+                return
             }
             
-            self.syllabusTableView.reloadData()
+            let jsonDecoder = JSONDecoder()
+            
+            do {
+                let topicList = try jsonDecoder.decode([Topic].self, from: data)
+                self.topicList = topicList
+                DispatchQueue.main.async {
+                    self.syllabusTableView.reloadData()
+                }
+            } catch {
+                print(error)
+            }
         }
+        
+        task.resume()
     }
 }
 

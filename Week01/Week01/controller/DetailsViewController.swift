@@ -33,6 +33,7 @@ class DetailsViewController: UIViewController{
         timeLabel.text = String(format: "%dh:%dm", hour, minute)
         difficultyLabel.text = "\u{2022} \(topic.difficulty.rawValue)"
         progressSlider.value = topic.progress
+        updateSliderColor()
         
         keyPointsLabel.attributedText = createKeyPoints(strings: topic.keyPoints)
     }
@@ -52,20 +53,24 @@ class DetailsViewController: UIViewController{
         return NSAttributedString(string: string, attributes: stringAttributes)
     }
     
-    @IBAction func sliderChanged(_ sender: UISlider) {
-        print("slider value: \(sender.value)")
-        
-        let progress = sender.value
+    private func updateSliderColor() {
+        let progress = progressSlider.value
         
         UIView.animate(withDuration: 0.3) {
             if progress < 0.5 {
-                sender.tintColor = .systemRed
+                self.progressSlider.tintColor = .systemRed
             } else if progress < 1.0 {
-                sender.tintColor = .systemYellow
+                self.progressSlider.tintColor = .systemYellow
             } else {
-                sender.tintColor = .systemGreen
+                self.progressSlider.tintColor = .systemGreen
             }
         }
+    }
+    
+    @IBAction func sliderChanged(_ sender: UISlider) {
+        print("slider value: \(sender.value)")
+        
+        updateSliderColor()
     }
     
     @IBAction func saveAction() {

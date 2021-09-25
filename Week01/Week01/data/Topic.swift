@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Topic{
+class Topic: Codable{
     let title: String
     let timeInSec: Int
     let summary: String
@@ -39,7 +39,7 @@ class Topic{
     }
 }
 
-enum Difficulty: String{
+enum Difficulty: String, Codable{
     case easy = "Easy"
     case intermediate = "Intermediate"
     case hard = "Hard"
