@@ -10,6 +10,9 @@ import UIKit
 class HomeViewController: UIViewController {
     
     @IBOutlet private weak var syllabusTableView: UITableView!
+    
+    private var topicList: [Topic] = []
+    private var selectedTopic: Topic!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,16 +24,52 @@ class HomeViewController: UIViewController {
         
         syllabusTableView.dataSource = self
         syllabusTableView.delegate = self
+        
+        downloadSyllabusTopic()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        syllabusTableView.reloadData()
     }
     
     @IBAction func infoAction(_ sender: Any) {
         performSegue(withIdentifier: "infoScreen", sender: nil)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination
+        
+        if let detailsVC = vc as? DetailsViewController {
+            detailsVC.topic = selectedTopic
+        }
+    }
+    
+    
+    //MARK: - Netowk Call
+    private func downloadSyllabusTopic() {
+        DispatchQueue.main.asyncAfter(deadline: .now()){
+            for i in 0...20 {
+                let topic = Topic(
+                    title: "Title \(i)",
+                    timeInSec: 7343,
+                    summary: "Summery",
+                    keyPoints: ["Points1","Points2","Points3","Points4","Points5"],
+                    imageName: "image\(i)",
+                    difficulty: .easy,
+                    progress: 0.5
+                )
+                
+                self.topicList.append(topic)
+            }
+            
+            self.syllabusTableView.reloadData()
+        }
+    }
 }
 
-extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
+extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return topicList.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -45,12 +84,22 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
             fatalError()
         }
         
-        cell.configure(title: "IBOutlet", timeInSecond: 34558, progress: 2.0)
+        let topic = topicList[indexPath.row]
+        
+        cell.configure(
+            title: topic.title,
+            timeInSecond: topic.timeInSec,
+            progress: topic.progress
+        )
         
         return cell
     }
-    
+}
+
+extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedTopic = topicList[indexPath.row]
+        
         performSegue(withIdentifier: "detailViewController", sender: nil)
     }
 }
