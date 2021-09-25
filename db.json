@@ -10,13 +10,67 @@
       "progress": 0.6
     },
     {
-      "title": "IBOutlet",
-      "timeInSec": 23223,
+      "title": "IBAction",
+      "timeInSec": 33223,
       "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
       "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
       "imageName": "image1",
       "difficulty": "Easy",
-      "progress": 0.6
+      "progress": 0.3
+    },
+    {
+      "title": "Struct",
+      "timeInSec": 36223,
+      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
+      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
+      "imageName": "image1",
+      "difficulty": "Easy",
+      "progress": 0.9
+    },
+    {
+      "title": "Class",
+      "timeInSec": 93223,
+      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
+      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
+      "imageName": "image2",
+      "difficulty": "Difficult",
+      "progress": 0.2
+    },
+    {
+      "title": "TableView",
+      "timeInSec": 67223,
+      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
+      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
+      "imageName": "image3",
+      "difficulty": "Easy",
+      "progress": 0.45
+    },
+    {
+      "title": "CollectionView",
+      "timeInSec": 73223,
+      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
+      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
+      "imageName": "image5",
+      "difficulty": "Intermediate",
+      "progress": 0.48
+    },
+    {
+      "title": "Design Pattern",
+      "timeInSec": 2395,
+      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
+      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
+      "imageName": "image1",
+      "difficulty": "Difficult",
+      "progress": 0.99
+    },
+    {
+      "title": "SwiftUI",
+      "timeInSec": 8723,
+      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
+      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
+      "imageName": "image1",
+      "difficulty": "Difficult",
+      "progress": 0.78
     }
   ]
 }
