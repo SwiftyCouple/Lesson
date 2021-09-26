@@ -90,5 +90,202 @@
       "difficulty": "Easy",
       "progress": 0.2
     }
+  ],
+  "items": [
+      {
+          "title": "Wardrobe",
+          "imageName": "wardrobe",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "Walton Refrigerator",
+          "imageName": "refrigerator",
+          "priceRange": "48$ - 59$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Nice to Have",
+          "hasBought": true
+      },
+      {
+          "title": "Pure It",
+          "imageName": "pureit",
+          "priceRange": "58$ - 99$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Extra",
+          "hasBought": false
+      },
+      {
+          "title": "Ceiling Fan",
+          "imageName": "ceilingfan",
+          "priceRange": "88$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "Table Fan",
+          "imageName": "tablefan",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Extra",
+          "hasBought": true
+      },
+      {
+          "title": "Grinder",
+          "imageName": "grinder",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Nice to Have",
+          "hasBought": false
+      },
+      {
+          "title": "Pressure Cooker",
+          "imageName": "pressurecooker",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "Rice Cooker",
+          "imageName": "ricecooker",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "Chair",
+          "imageName": "chair",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "Table",
+          "imageName": "table",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "Porda",
+          "imageName": "porda",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "AC",
+          "imageName": "ac",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      },
+      {
+          "title": "Motor Cycle",
+          "imageName": "motorcycle",
+          "priceRange": "18$ - 19$",
+          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
+          "keyPoints": [
+              "Edging thickness: 1 mm",
+              "Water and termite-proof",
+              "Free fitting service",
+              "Knocked down flat box packaging for easy and damage-free transportation.",
+              "Color: As given picture."
+          ],
+          "needLevel": "Must Have",
+          "hasBought": false
+      }
   ]
 }
