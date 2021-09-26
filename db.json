@@ -1,33 +1,6 @@
 {
   "topics": [
     {
-      "title": "IBOutlet",
-      "timeInSec": 23223,
-      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
-      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
-      "imageName": "image1",
-      "difficulty": "Easy",
-      "progress": 0.6
-    },
-    {
-      "title": "IBAction",
-      "timeInSec": 33223,
-      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
-      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
-      "imageName": "image2",
-      "difficulty": "Easy",
-      "progress": 0.3
-    },
-    {
-      "title": "Struct",
-      "timeInSec": 36223,
-      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
-      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
-      "imageName": "image3",
-      "difficulty": "Easy",
-      "progress": 0.9
-    },
-    {
       "title": "Class",
       "timeInSec": 93223,
       "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
@@ -62,33 +35,6 @@
       "imageName": "image7",
       "difficulty": "Hard",
       "progress": 0.99
-    },
-    {
-      "title": "SwiftUI",
-      "timeInSec": 8723,
-      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
-      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
-      "imageName": "image8",
-      "difficulty": "Hard",
-      "progress": 0.78
-    },
-    {
-      "title": "Accessiblity",
-      "timeInSec": 84723,
-      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
-      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
-      "imageName": "image9",
-      "difficulty": "Hard",
-      "progress": 1.0
-    },
-    {
-      "title": "Database",
-      "timeInSec": 88723,
-      "summary": "When you connect your storyboard to your code Xcode inserts two special markers: @IBAction and @IBOutlet. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.",
-      "keyPoints": ["Connect the View Controller in the storyboard file to the ViewController.swift file","Locate and use the Assistant Editor", "Pull up the Assistant Editor using the hotkey Command + Option + Return", "Hide the Assistant Editor using the hotkey Command + Return"],
-      "imageName": "image10",
-      "difficulty": "Easy",
-      "progress": 0.2
     }
   ],
   "items": [
@@ -141,141 +87,6 @@
           "title": "Ceiling Fan",
           "imageName": "ceilingfan",
           "priceRange": "88$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Must Have",
-          "hasBought": false
-      },
-      {
-          "title": "Table Fan",
-          "imageName": "tablefan",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Extra",
-          "hasBought": true
-      },
-      {
-          "title": "Grinder",
-          "imageName": "grinder",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Nice to Have",
-          "hasBought": false
-      },
-      {
-          "title": "Pressure Cooker",
-          "imageName": "pressurecooker",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Must Have",
-          "hasBought": false
-      },
-      {
-          "title": "Rice Cooker",
-          "imageName": "ricecooker",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Must Have",
-          "hasBought": false
-      },
-      {
-          "title": "Chair",
-          "imageName": "chair",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Must Have",
-          "hasBought": false
-      },
-      {
-          "title": "Table",
-          "imageName": "table",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Must Have",
-          "hasBought": false
-      },
-      {
-          "title": "Porda",
-          "imageName": "porda",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Must Have",
-          "hasBought": false
-      },
-      {
-          "title": "AC",
-          "imageName": "ac",
-          "priceRange": "18$ - 19$",
-          "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
-          "keyPoints": [
-              "Edging thickness: 1 mm",
-              "Water and termite-proof",
-              "Free fitting service",
-              "Knocked down flat box packaging for easy and damage-free transportation.",
-              "Color: As given picture."
-          ],
-          "needLevel": "Must Have",
-          "hasBought": false
-      },
-      {
-          "title": "Motor Cycle",
-          "imageName": "motorcycle",
-          "priceRange": "18$ - 19$",
           "summery": "Best quality particle Board imported from Malaysia Best quality melamine paper imported from Hong Kong which made furniture scratch free and enhances glossiness Melamine paper is joined by heat pressed machine which enhances the durability of the Board finest quality imported accessories ensure the strong structure",
           "keyPoints": [
               "Edging thickness: 1 mm",
